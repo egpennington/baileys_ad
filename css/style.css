@@ -1,0 +1,66 @@
+:root {
+  --main-color: #C1B48A;
+  --dark-color: #2C2C20;
+  --light-color: #D2D5DA;
+  --hilight-color: #CCA782;
+  --secondary-color: #40384F;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma", sans-serif;
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+h1 { color: var(--secondary-color); }
+h5 {
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 420px;
+  margin: 10px auto;
+}
+
+
+.open {
+  margin: 0 auto;
+  width: 255px;
+  height: 210px;
+  border: 6px solid #fff;
+  background-image: url("https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg");
+  background-size: cover;
+}
+
+.one:hover {
+  background: url("https://media1.giphy.com/media/3ohhwoBqhih33ck000/giphy.gif?cid=ecf05e477fz5f1coygz43jgi0yqlrxsn1m1vdxf1kh22wco2&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center center/cover;
+}
+
+.two:hover {
+  background: url("https://media0.giphy.com/media/vc0hcLlZVddCAUJ2p7/giphy.gif?cid=ecf05e47yhqzfnlyx7has2pny7sjl8trzzr7ge5opgm00762&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center center/cover;
+}
+
+.three:hover {
+  background: url("https://media0.giphy.com/media/PkAG8cQIWuOHTZSHj5/giphy.gif?cid=ecf05e47ujh2w206prixfddsk9z6m3zqptmj9swevfr13tn4&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center center/cover;
+}
+
+.four:hover {
+  background: url("https://media1.giphy.com/media/3ohs83bO7MKV9koZuE/giphy.gif?cid=ecf05e47akyh6yd4vraul7oqbv2nxeai8mfxen1k8jtfutcn&ep=v1_gifs_related&rid=giphy.gif&ct=g") no-repeat center center/cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
